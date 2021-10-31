@@ -19,3 +19,7 @@ install
 ```
 pip install opencv-python
 ```
+
+# hOCR format
+
+https://en.wikipedia.org/wiki/HOCR
