@@ -45,6 +45,13 @@ async function codegen(options, url, language, outputFile) {
 
 https://github.com/microsoft/playwright/blob/bb77912aeed624f5459c7c1a5459ad03ab820918/packages/playwright-core/src/server/supplements/recorder/recorderApp.ts
 
+https://github.com/microsoft/playwright/blob/dddf70cead58ac374bc1a6f734953e723a034172/tests/inspector/cli-codegen-1.spec.ts#L23-L36
+```
+page.waitForEvent
+recorder.waitForOutput
+page.dispatchEvent
+```
+
 # doc
 
 https://github.com/microsoft/playwright/blob/ef35bfa0da2f04a2dcd0f701af6faa091997de9e/docs/src/cli.md
