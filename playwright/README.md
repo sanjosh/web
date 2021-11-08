@@ -16,3 +16,7 @@ https://peter.sh/experiments/chromium-command-line-switches
 # FAQ
 
 https://applitools.com/blog/top-playwright-questions-answered/
+
+# chrome extension
+
+https://github.com/kholid060/automa
