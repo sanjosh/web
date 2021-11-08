@@ -16,7 +16,7 @@ https://github.com/microsoft/playwright-python/blob/master/playwright/__main__.p
 
 https://github.com/microsoft/playwright-python/blob/29b5a13d1a95114a0c39ce7837352845890d0f1d/playwright/_impl/_driver.py#L28
 
-/home/sandeep/miniconda3/envs/playwright/lib/python3.9/site-packages/playwright/driver/playwright.sh
+/home/sandeep/miniconda3/envs/selenium/lib/python3.9/site-packages/playwright/driver/playwright.sh
 
 in file cli.js
 
@@ -42,6 +42,16 @@ async function codegen(options, url, language, outputFile) {
   if (process.env.PWTEST_CLI_EXIT) await Promise.all(context.pages().map(p => p.close()));
 }
 ```
+
+browserContext.js
+
+browserContextDispatch.js
+
+recorderSupplement.js ContextRecorder has JavaLanguageGenerator, etc
+https://github.com/microsoft/playwright/blob/6a30c905903e79f487d745b7b298e16ff72c6b04/packages/playwright-core/src/server/supplements/recorderSupplement.ts#L302-L309
+
+uses https://nodejs.org/api/events.html
+
 
 https://github.com/microsoft/playwright/blob/bb77912aeed624f5459c7c1a5459ad03ab820918/packages/playwright-core/src/server/supplements/recorder/recorderApp.ts
 
